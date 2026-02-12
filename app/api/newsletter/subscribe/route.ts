@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { subscribeToNewsletter } from "@/lib/sheets";
+import { subscribeToNewsletter } from "@/lib/nexus";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
